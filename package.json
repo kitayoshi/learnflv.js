@@ -1,0 +1,39 @@
+{
+  "name": "learnflv.js",
+  "version": "0.0.1",
+  "description": "https://github.com/midare/learnflv.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config config/webpack.config.js",
+    "build": "rm -rf dist && cp -r public dist && webpack --config config/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midare/learnflv.js.git"
+  },
+  "keywords": [
+    "flv.js"
+  ],
+  "author": "midare <midare@utakana.de>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/midare/learnflv.js/issues"
+  },
+  "homepage": "https://github.com/midare/learnflv.js#readme",
+  "devDependencies": {
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.6.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "flv.js": "^1.2.0"
+  }
+}
